@@ -46,7 +46,9 @@ class _WelcomePageState extends State<WelcomePage> {
             MyButton(
               color: Colors.yellow[900]!,
               title: 'Sign In',
-              onPressed: () {},
+              onPressed: () {
+                Navigator.pushNamed(context, 'signin_screen');
+              },
             ),
             const SizedBox(
               height: 20,
@@ -54,7 +56,9 @@ class _WelcomePageState extends State<WelcomePage> {
             MyButton(
               color: Colors.blue[800]!,
               title: 'Sign Up',
-              onPressed: () {},
+              onPressed: () {
+                Navigator.pushNamed(context, 'registration_screen');
+              },
             ),
           ],
         ),
