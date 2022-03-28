@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "375944536411",
+    "project_id": "chatwithme-725bf",
+    "storage_bucket": "chatwithme-725bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375944536411:android:5034d705d6bc7decf1fa7e",
+        "android_client_info": {
+          "package_name": "com.karamchaatapp.chat_with_me"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375944536411-ujt7n9u0c6fuabuhj0sn91h0v6bk1b31.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHBj_Qzjc4kYdtER47-OPJIrjA52wRUuI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375944536411-ujt7n9u0c6fuabuhj0sn91h0v6bk1b31.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

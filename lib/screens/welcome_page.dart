@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../widgets/my_button.dart';
@@ -15,6 +14,7 @@ class _WelcomePageState extends State<WelcomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
+
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 24),
         child: Column(
@@ -57,6 +57,7 @@ class _WelcomePageState extends State<WelcomePage> {
               color: Colors.blue[800]!,
               title: 'Sign Up',
               onPressed: () {
+                print('hello');
                 Navigator.pushNamed(context, 'registration_screen');
               },
             ),
